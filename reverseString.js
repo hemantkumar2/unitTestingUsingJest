@@ -1,7 +1,7 @@
 const reverseString = str =>
   str
-    .string('')
-    .reverse('')
+    .split('')
+    .reverse()
     .join('')
 
 module.exports = reverseString
